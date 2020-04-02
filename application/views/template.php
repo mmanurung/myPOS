@@ -65,12 +65,12 @@
           <!-- User Account -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="<?=base_url()?>assets/dist/img/user2-160x160.jpg" class="user-image">
+              <img src="<?=base_url()?>assets/dist/img/download.png" class="user-image">
               <span class="hidden-xs"> <?=$this->fungsi->user_login()->username?> </span>
             </a>
             <ul class="dropdown-menu">
               <li class="user-header">
-                <img src="<?=base_url()?>assets/dist/img/user2-160x160.jpg" class="img-circle">
+                <img src="<?=base_url()?>assets/dist/img/download.png" class="img-circle">
                 <p><?=$this->fungsi->user_login()->name?>
                   <small><?=$this->fungsi->user_login()->address?></small>
                 </p>
